@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carrinho de comprar.">
+  <title>carrinho</title>
+</head>
+
+<body>
+  <form action="/salvar-carrinho" method="POST">
+    <h2>Carrinho Manoel gomes</h2>
+    <a href="home.html">Home</a><p></p><a href="login.html">Login</a><p></p><a href="carrinho.html">Carrinho</a><p><a href="Produtos.html">Produtos</a></p><a href="Sobre.html">Sobre</a> 
+    <hr>
+
+
+    <label for="carrinho">Escolha o prduto :</label>
+    <select id="carrinho" name="carrinho" required>
+      <option value="">-- Selecione uma opção --</option>
+      <option value="Mous">Mouse Manoel</option>
+      <option value="Bolsa "> Bolsa Manoel</option>
+      <option value="Xícara">Xícara Manoel</option>
+      <option value="Travesseiro">Travesseiro Manoel</option>
+      <option value="Camisa ">Camisa Manoel</option>
+    </select>
+
+    <br><br>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" name="quantidade" min="1" max="10" value="1">
+
+    <br><br>
+
+    <!-- Botão de Envio -->
+    <button><a href="home.html"></a>
+    </button>
+  </form>
+
+</body>
+
+</html>
